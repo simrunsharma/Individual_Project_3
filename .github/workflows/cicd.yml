@@ -11,6 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - name : install packages
         run : make install
       - name: test
@@ -19,5 +20,5 @@ jobs:
         run : make format
       - name: lint
         run: make lint
-      
+          
       
