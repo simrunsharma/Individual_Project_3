@@ -1,4 +1,5 @@
 name: CI
+
 on:
   push:
     branches: [ "main" ]
@@ -9,12 +10,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-      - name: install packages
-        run: make install
-      - name: lint
-        run: make lint 
-      - name: format
-        run: make format
+    steps:
+      - name : install packages
+        run : make install
       - name: test
         run: make test
- 
+      - name : format
+        run : make format
+      - name: lint
+        run: make lint
+      
+      
