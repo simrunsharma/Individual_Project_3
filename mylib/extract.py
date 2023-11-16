@@ -1,8 +1,5 @@
 """
-Extract a dataset from a URL like Kaggle or data.gov.
-JSON or CSV formats tend to work well
-
-Jeopardy dataset
+Extraction data using glacier mass cumulative balance dataset. 
 """
 import requests
 from pyspark.sql import DataFrame
