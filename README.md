@@ -1,4 +1,5 @@
 # Databricks End to End ETL Pipeline:
+[![CI](https://github.com/simrunsharma/Individual_Project_3/actions/workflows/cicd.yml/badge.svg)](https://github.com/simrunsharma/Individual_Project_3/actions/workflows/cicd.yml)
 
 ## Dataset:
 Average cumulative mass balance of “reference” Glaciers worldwide from 1945-2014 sourced from US EPA and the World Glacier Monitoring Service (WGMS). This is cumulative change in mass balance of a set of “reference” glaciers worldwide beginning in 1945. The values represents the average of all the glaciers that were measured. Negative values indicate a net loss of ice and snow compared with the base year of 1945. For consistency, measurements are in meters of water equivalent, which represent changes in the average thickness of a glacier.
